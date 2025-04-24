@@ -27,7 +27,7 @@ from stretch.perception.wrapper import OvmmPerception
 from stretch.utils.logger import Logger
 from stretch.visualization import urdf_visualizer
 
-from hydra_python.utils import hydra_get_mesh
+from graph_eqa.envs.utils import hydra_get_mesh
 
 logger = Logger(__name__)
 
